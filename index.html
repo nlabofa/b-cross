@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head 
+         content must come *after* these tags -->
+    <title>Bcross</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <!-- CSS Files -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="css/mystyles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#navbar"
+                  aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/img/logo_full.png" alt="Logo" class="img-responsive" height="40" width="150"></a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse header-nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="btn btn-fill">Submit New Entry</a></li>
+                    <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-hospital-o fa-stack-1x"></i></span> Hospitals</a></li>
+                    <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-newspaper-o fa-stack-1x"></i></span> Blog</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <div class="logo-container" style="margin-top: -10px;">
+                            <div class="dr-image">
+                             <img src="assets/img/index1.jpe" class="img-responsive" style="width:100%;">      
+                            </div>
+                        </div><span class="caret pull-right dr-caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu-header text-center"><b>Account</b></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="fa fa-sign-out"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-nav-tabs">
+                    <div class="header header-success">
+                        <div class="logo-container" style="margin-left: 15px;margin-bottom:30px;">
+                            <div class="col-md-2">
+                                <div class="dr-image">
+                                 <img src="assets/img/index1.jpe" class="img-responsive" style="width:100%;">     
+                                </div>
+                            </div>
+                            <div class="col-md-10"><h3>Opeyemi Agbeja</h3><h5>Male, 28 years old</h5></div>
+                        </div>
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs" data-tabs="tabs">
+                                    <li class="active">
+                                        <a href="#clinical-info" data-toggle="tab">
+                                            <i class="fa fa-medkit fa-2x" aria-hidden="true"></i>
+                                            Clinical Info
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#social-info" data-toggle="tab">
+                                             <i class="fa fa-rss fa-2x" aria-hidden="true"></i>
+                                            Social Info
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact-info" data-toggle="tab">
+                                             <i class="fa fa-address-card-o fa-2x" aria-hidden="true"></i>
+                                            Contact Info
+                                        </a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="clinical-info">
+                                <div class="col-md-6">
+                                    Height<br>
+                                    <b>189cm</b><br><br>
+                                    Blood Type<br>
+                                    <b>AA</b></br><br>
+                                    Medical Conditions <i class="fa fa-info-circle" aria-hidden="true"></i><br>
+                                    <b>Diabetic</b></br><br>
+                                    Active Medications  <i class="fa fa-info-circle" aria-hidden="true"></i><br>
+                                    <b>Tylenol</b></br><br>
+                                    Prior Surgeries  <i class="fa fa-info-circle" aria-hidden="true"></i><br>
+                                    <b>Appendix Removal</b></br><br>
+                                </div>
+                                <div class="col-md-6">
+                                  Weight<br>
+                                  <b>68kg</b></br></br>  
+                                  Allergies<br>
+                                  <b>Beans, <span style="color:red;">Paracetamol</span></b></br>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="social-info">
+                                <p> I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+                            </div>
+                            <div class="tab-pane" id="contact-info">
+                                <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card child-card ">
+                        <a href="#" style="color:#70b9f2;">  <i class="fa fa-external-link fa-lg" aria-hidden="true"></i> Open Comprehensive Medical History</a>
+                    </div>
+                </div><!--card nav-tabs ends-->
+            </div><!--col-md-4 ends-->
+            <div class="col-md-8">
+                <div class="card">     
+                   <label class="radio">
+                    <input type="radio"  name="optionsRadios" data-toggle="radio" id="optionsRadios1" value="option1">
+                    <i></i>Vitals
+                  </label>
+                  <label class="radio" style="color:orange;">
+                    <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
+                    <i></i>Encounter Notes
+                  </label>
+                  <label class="radio" style="color:#8f861f;">
+                    <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
+                    <i></i>Labs
+                  </label>
+                  <label class="radio" style="color:#ffc600;">
+                    <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
+                    <i></i>Prescriptions
+                  </label>
+                  <label class="radio" style="color:#fa6b98;">
+                    <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
+                    <i></i>See All
+                  </label>
+                </div><!--radio-card ends-->
+
+
+                <div class="card card-panel">  
+                    <div id="acordeon">
+                        <div class="panel-group" id="accordion">
+
+                            <div class="panel panel-default" style="padding-top:20px;">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseOne" href="#collapseOne" data-toggle="gsdk-collapse">
+                                        <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                        </div>
+                                     <b>Abi D.</b> added <span style="color:orange">Prescriptions</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body content">
+                                       <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+                                        <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseTwo" href="#collapseTwo" data-toggle="gsdk-collapse">
+                                      <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                        </div>
+                                     <b>Abi D.</b> added <span style="color:#6eaee4">Medical Encounter Notes</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body content">
+                                        <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseThree" href="#collapseThree" data-toggle="gsdk-collapse">
+                                     <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                      </div>
+                                     <b>Abi D.</b> added <span style="color:#8f861f">Lab Request</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body content">
+                                       <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+                                        <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseFour" href="#collapseFour" data-toggle="gsdk-collapse">
+                                     <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                      </div>
+                                     <b>Abi D.</b> added <span style="color:#ffc600">Billing</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body content">
+                                       <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+                                        <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseFive" href="#collapseFive" data-toggle="gsdk-collapse">
+                                     <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                      </div>
+                                     <b>Abi D.</b> added <span style="color:#c9e1a4">Lab Result</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="panel-body content">
+                                       <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+                                        <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-target="#collapseSix" href="#collapseSix" data-toggle="gsdk-collapse">
+                                     <div class="panel-image">
+                                         <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                      </div>
+                                     <b>Abi D.</b> added <span style="color:#fa6b98">Comment</span> in <b>St. Mary's Hospital</b><span class="pull-right">Feb 3 at 6:00pm<span class="caret"></span></span>
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                   <div class="panel-body content">
+                                       <b>Patients Complaints</b><br>
+                                       Toothache<br><br>
+
+                                       <b>History of Presenting Complaints</b><br>
+                                       No previous history, Patients says it's the first time such has happened to him. He complains of excruciating stomache upset early in the morning and late at night.<br><br>
+
+                                       <b>Other useful information</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+
+                                       <b>Review of Systems(Examination)</b><br>
+                                       Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long.<br><br>
+                                        <b>Assesement(Diagnosis)</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision<br><br>
+
+                                       <b>Action plan</b><br>
+                                       Multiple holes found. partial coverage of exposed and fevered body temperature as well as blurry vision Patient complains commonly of sharp pains associated with lifting heavy loads or walking for too long<br><br>
+
+                                       <span class="prescription"><a href="#"><i class="fa fa-thermometer-empty fa-lg" style="color:orange;"></i> <span>Includes</span> prescription &raquo;</a>
+                                       </span><br><br>
+                                       <span class ="lab-result"><a href="#"><i class="fa fa-flask fa-lg" style="color:#e2ba7a;"></i> <span>Includes</span> Lab Request &raquo;</a>
+                                       </span>
+
+                                       <div class="row panel-textarea" style="margin-top: 20px;"><div class="col-md-1"> <div class="panel-image">
+                                             <img src="assets/img/index3.jpe" class="img-responsive" style="width:100%;">      
+                                            </div></div><div class="col-md-11"><textarea name="" class="form-control" col="3" placeholder="Add a comment here ..."></textarea></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel group ends here -->     
+                    </div><!--class acordeon ends here -->
+                </div><!--card panel ends here -->
+            </div><!--col-md-8 ends here -->
+        </div><!--row ends here -->
+    </div><!--container ends here -->
+
+    <footer></footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script> 
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/gsdk-radio.js"></script>
+    <script src="assets/js/get-shit-done.js"></script>
+    <script src="assets/js/gsdk-bootstrapswitch.js"></script>
+</body>
+</html>
